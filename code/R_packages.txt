@@ -1,0 +1,6 @@
+# CRAN
+# (base R stats only)
+# Bioconductor: BiocManager::install(c("limma", "GSVA", "sva"))
+limma
+GSVA   # gsvaParam() interface, GSVA >= 1.50
+sva

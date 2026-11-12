@@ -1,0 +1,28 @@
+check,result,detail
+GPL14550 matrix: samples,OK,"429 samples, 15261 rows x 429 cols, platform={'GPL14550'}"
+GPL14550 expression: same sample IDs & order,OK,
+GPL14550 expression: same probe IDs & order,OK,
+GPL14550 expression: values identical,OK,"max |diff|=0, NA prepared=0, NA matrix=0"
+GPL14550 sample metadata: same samples,OK,
+GPL14550 sample metadata: same columns as matrix characteristics,OK,missing=[] extra=[]
+GPL14550 sample metadata: every value identical to matrix,OK,{}
+GPL14550: per-platform metadata == all_sample_metadata rows,OK,{}
+GPL14550 annotation: rows,OK,"raw 42545 vs prepared 42545, columns equal=True"
+GPL14550 annotation: every cell identical to official platform table,OK,
+GPL14550 annotation: all expression probes annotated,OK,symbol missing for 67 of 15261 probes
+source_series_metadata: sample IDs,OK,"582 listed, 582 match all_sample_metadata"
+source_series_metadata: !Series_title matches matrix,OK,
+source_series_metadata: !Series_summary matches matrix,OK,
+source_series_metadata: !Series_overall_design matches matrix,OK,
+GPL6480 matrix: samples,OK,"153 samples, 15261 rows x 153 cols, platform={'GPL6480'}"
+GPL6480 expression: same sample IDs & order,OK,
+GPL6480 expression: same probe IDs & order,OK,
+GPL6480 expression: values identical,OK,"max |diff|=0, NA prepared=0, NA matrix=0"
+GPL6480 sample metadata: same samples,OK,
+GPL6480 sample metadata: same columns as matrix characteristics,OK,missing=[] extra=[]
+GPL6480 sample metadata: every value identical to matrix,OK,{}
+GPL6480: per-platform metadata == all_sample_metadata rows,OK,{}
+GPL6480 annotation: rows,OK,"raw 41108 vs prepared 41108, columns equal=True"
+GPL6480 annotation: every cell identical to official platform table,OK,
+GPL6480 annotation: all expression probes annotated,OK,symbol missing for 67 of 15261 probes
+all_sample_metadata: 582 rows = 429 + 153,OK,

@@ -1,0 +1,3 @@
+"comparison","conc_top500","tcor_top500","tcor_all","frac_splits_below_cross","conc_q05_q95"
+"Cross-platform, QC cohort",0.648,0.412544992972945,0.111076643794809,NA,NA
+"Split-half within GPL14550 QC (59 -> 59), median of 200",0.714,0.493757906976129,0.236849925436244,0.305,"0.514-0.842"

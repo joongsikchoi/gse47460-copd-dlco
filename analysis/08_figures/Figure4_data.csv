@@ -1,0 +1,13 @@
+set,estimate,beta_SD_per10pct,ci_low,ci_high,p
+Alveolar type 2 (AT2),Combined (IVW),0.024,-0.08,0.128,0.652609914710004
+Alveolar type 2 (AT2),GPL6480 (replication),0.027,-0.161,0.214,0.780802466762746
+Alveolar type 2 (AT2),GPL14550 (discovery),0.023,-0.102,0.147,0.723579830405304
+Alveolar type 1 (AT1),Combined (IVW),0.151,0.053,0.25,0.0025995296969636
+Alveolar type 1 (AT1),GPL6480 (replication),0.122,-0.055,0.299,0.183249786574609
+Alveolar type 1 (AT1),GPL14550 (discovery),0.165,0.046,0.283,0.0075628037719293
+General capillary (gCap),Combined (IVW),0.124,0.025,0.223,0.0137279290345203
+General capillary (gCap),GPL6480 (replication),0.085,-0.095,0.265,0.357070403015123
+General capillary (gCap),GPL14550 (discovery),0.141,0.023,0.26,0.0211557220955464
+Aerocyte capillary (aCap),Combined (IVW),0.104,0.009,0.199,0.0318086774268023
+Aerocyte capillary (aCap),GPL6480 (replication),0.122,-0.054,0.297,0.179961514027251
+Aerocyte capillary (aCap),GPL14550 (discovery),0.097,-0.016,0.209,0.0960770390133691

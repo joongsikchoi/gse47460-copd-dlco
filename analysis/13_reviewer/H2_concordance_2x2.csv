@@ -1,0 +1,9 @@
+"model","discovery","replication","conc_top500","conc_top100"
+"base","QC","QC",0.648,0.75
+"base","QC","all",0.422,0.47
+"base","all","QC",0.74,0.81
+"base","all","all",0.458,0.45
+"AlvCap","QC","QC",0.476,0.56
+"AlvCap","QC","all",0.382,0.39
+"AlvCap","all","QC",0.474,0.53
+"AlvCap","all","all",0.324,0.34

@@ -1,0 +1,11 @@
+sample_id,platform,GOLD,DLCO,resid_DLCO,medcor,z_medcor,alveolar_AT2,alveolar_cap,airway_secretory,cilia,adipose,mesothelium,lymphoid,blood_RBC,pattern
+GSM1149972,GPL6480,At Risk,74.0,13.2,0.844,-10.31,-5.1,-3.86,-1.25,-1.73,-0.65,0.03,1.88,-3.25,very low alveolar; lymphoid; low blood
+GSM1150016,GPL6480,Severe,86.0,16.9,0.861,-8.62,-0.01,-1.25,0.29,-0.33,0.47,-0.91,-0.22,-1.59,low inter-array correlation only
+GSM1150220,GPL14550,Moderate,58.0,-4.1,0.874,-10.13,-6.06,-2.69,-1.42,-1.48,5.91,2.1,0.7,0.54,very low alveolar; adipose; mesothelium
+GSM1150187,GPL14550,Mild,20.0,-29.7,0.84,-14.56,-5.99,-3.77,-0.43,-1.28,-1.02,-0.29,3.25,0.13,very low alveolar; lymphoid
+GSM1150199,GPL14550,Moderate,43.0,-9.6,0.891,-7.99,-4.03,-2.69,1.7,1.9,2.61,-0.94,1.51,-3.28,very low alveolar; adipose; airway; low blood; GEO title says ILD
+GSM1150251,GPL14550,Mild,34.0,-37.0,0.888,-8.35,-1.12,-2.13,1.97,2.2,-0.39,-0.75,2.16,0.32,lymphoid; airway
+GSM1150147,GPL14550,Mild,77.0,-5.0,0.911,-5.37,-0.88,-1.24,1.92,2.36,0.11,-0.7,1.21,-0.3,airway
+GSM1150226,GPL14550,Moderate,54.0,0.9,0.91,-5.51,-0.73,-0.85,1.19,1.9,0.24,-0.22,0.17,-1.25,airway
+GSM1150465,GPL14550,Very Severe,70.0,13.1,0.903,-6.38,-0.18,0.49,1.96,2.67,-0.52,-0.64,-0.34,0.91,airway
+"Retained 177, median [IQR]",,,54,"-0.4 [-9.1, 7.8]",0.951,,"0.22 [-0.07, 0.41]","0.21 [-0.15, 0.59]","-0.16 [-0.57, 0.39]","-0.27 [-0.74, 0.55]","-0.14 [-0.28, 0.12]","-0.12 [-0.40, 0.33]","-0.27 [-0.74, 0.50]","0.08 [-0.47, 0.53]",

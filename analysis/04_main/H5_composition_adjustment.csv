@@ -1,0 +1,5 @@
+"platform","adjustment","FDR05_after","tcor_vs_unadjusted_allgenes","top100disc_same_direction","top100disc_median_beta_ratio"
+"GPL14550","all8_celltypes",1,0.666027755863264,1,0.618938812554199
+"GPL14550","nonalveolar4",1,0.793726237844045,1,0.777344459510563
+"GPL6480","all8_celltypes",0,0.799105858997295,0.78,0.705331337733551
+"GPL6480","nonalveolar4",0,0.876560859812972,0.87,0.966461903244503

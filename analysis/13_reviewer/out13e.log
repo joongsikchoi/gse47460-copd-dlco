@@ -1,0 +1,50 @@
+   cohort      y    method disc_n rep_n disc_b   disc_p  rep_b  rep_p meta_b
+1  all186 AlvCap        lm    125    61  1.521 0.000121 0.5931 0.4097  1.314
+2  all186 AlvCap rlm_huber    125    61  1.352 0.000426 0.8424 0.2352  1.240
+3  all186   CapA        lm    125    61  0.228 0.000154 0.1078 0.2607  0.195
+4  all186   CapA rlm_huber    125    61  0.231 0.000213 0.0964 0.3277  0.194
+5  all186    AT1        lm    125    61  0.438 0.000482 0.2036 0.2866  0.369
+6  all186    AT1 rlm_huber    125    61  0.387 0.001714 0.2469 0.2121  0.348
+7   QC177 AlvCap        lm    118    59  1.016 0.002977 0.7330 0.2728  0.958
+8   QC177 AlvCap rlm_huber    118    59  1.027 0.006819 0.8034 0.2431  0.976
+9   QC177   CapA        lm    118    59  0.177 0.003584 0.1569 0.0918  0.171
+10  QC177   CapA rlm_huber    118    59  0.170 0.005336 0.1382 0.1613  0.161
+11  QC177    AT1        lm    118    59  0.297 0.013324 0.2974 0.1016  0.297
+12  QC177    AT1 rlm_huber    118    59  0.281 0.018279 0.3107 0.1226  0.289
+   meta_lo meta_hi   meta_p converged
+1   0.6530   1.975 9.74e-05      TRUE
+2   0.5946   1.885 1.66e-04      TRUE
+3   0.0977   0.292 8.58e-05      TRUE
+4   0.0930   0.294 1.64e-04      TRUE
+5   0.1682   0.570 3.17e-04      TRUE
+6   0.1471   0.549 6.87e-04      TRUE
+7   0.3732   1.543 1.33e-03      TRUE
+8   0.3351   1.616 2.83e-03      TRUE
+9   0.0733   0.269 6.01e-04      TRUE
+10  0.0614   0.261 1.55e-03      TRUE
+11  0.1041   0.490 2.55e-03      TRUE
+12  0.0910   0.487 4.22e-03      TRUE
+
+Huber weights, AlvCap model, all 186 (outliers):
+     sample_id platform qc_outlier AlvCap huber_weight
+2   GSM1150147 GPL14550       TRUE  14.74        0.549
+9   GSM1150187 GPL14550       TRUE   4.69        0.485
+14  GSM1150199 GPL14550       TRUE   7.66        0.401
+24  GSM1150220 GPL14550       TRUE   5.54        0.358
+28  GSM1150226 GPL14550       TRUE  18.34        0.890
+42  GSM1150251 GPL14550       TRUE  10.66        0.742
+113 GSM1150465 GPL14550       TRUE  27.30        1.000
+132 GSM1149972  GPL6480       TRUE   5.66        0.260
+148 GSM1150016  GPL6480       TRUE  42.47        0.794
+
+Number of arrays with weight < 1: 41 of 186 
+Lowest weights:
+     sample_id platform qc_outlier AlvCap huber_weight
+132 GSM1149972  GPL6480       TRUE   5.66        0.260
+24  GSM1150220 GPL14550       TRUE   5.54        0.358
+143 GSM1150002  GPL6480      FALSE  45.23        0.370
+14  GSM1150199 GPL14550       TRUE   7.66        0.401
+126 GSM1149949  GPL6480      FALSE  11.59        0.409
+130 GSM1149965  GPL6480      FALSE  14.59        0.437
+178 GSM1150126  GPL6480      FALSE  16.71        0.475
+9   GSM1150187 GPL14550       TRUE   4.69        0.485

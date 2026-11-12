@@ -1,0 +1,3 @@
+Genes analysed: 11394
+VIF GPL14550 DLCO 2.23; FEV1 2.22; sqrtEmph 2.22; Age 1.36; Male 1.03; Current 1.05
+VIF GPL6480 DLCO 3.13; FEV1 2.24; sqrtEmph 2.6; Age 1.28; Male 1.16; Current 1.04

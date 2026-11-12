@@ -1,0 +1,139 @@
+  platform   n FDR05_base FDR05_AlvCap_adj FDR05_arrayWeights
+1 GPL14550 125        375                1                275
+2  GPL6480  61          0                0                  0
+  aw_outliers_median aw_others_median aw_outliers_rank_max conc_top500_base
+1          0.3134495         1.145639                   20            0.458
+2          0.1694005         1.196036                    3            0.458
+  conc_top500_AlvCap conc_top500_arrayWeights
+1              0.324                     0.67
+2              0.324                     0.67
+n genes: 375  4/n = 0.032 
+     sample_id outlier DLCO resid_DLCO AlvCap median_cooksD
+9   GSM1150187    TRUE   20    -29.675   4.69       0.13131
+109 GSM1150450   FALSE   48     -2.289  22.62       0.02543
+42  GSM1150251    TRUE   34    -36.950  10.66       0.02448
+61  GSM1150290   FALSE   92     17.982  19.13       0.01793
+53  GSM1150275   FALSE   76     -1.822  38.04       0.01747
+80  GSM1150318   FALSE   66      9.556  32.02       0.01586
+28  GSM1150226    TRUE   54      0.876  18.34       0.01128
+13  GSM1150193   FALSE   35     -6.789  20.09       0.00946
+113 GSM1150465    TRUE   70     13.125  27.30       0.00869
+21  GSM1150212   FALSE   48      1.810  26.69       0.00850
+115 GSM1150492   FALSE   37      6.016  31.92       0.00764
+78  GSM1150315   FALSE   42    -13.784  28.08       0.00718
+    pct_genes_cooksD_gt_4n pct_genes_cooksD_gt_1
+9                    82.13                  1.07
+109                  42.93                  0.00
+42                   42.93                  0.00
+61                   34.67                  0.00
+53                   25.33                  0.00
+80                   33.33                  0.00
+28                   25.60                  0.00
+13                   18.40                  0.00
+113                  22.13                  0.00
+21                   17.33                  0.00
+115                  17.33                  0.00
+78                    6.13                  0.00
+  k_IQR excl_disc excl_rep n_disc n_rep FDR05_disc FDR05_rep conc_top500
+1   1.5        13        4    112    57          5         0       0.714
+2   2.0        10        3    115    58          4         0       0.694
+3   3.0         7        2    118    59          1         0       0.648
+                                                                added_back   n
+1                                                               GSM1150147 119
+2                                                               GSM1150187 119
+3                                                               GSM1150199 119
+4                                                               GSM1150220 119
+5                                                               GSM1150226 119
+6                                                               GSM1150251 119
+7                                                               GSM1150465 119
+8                                                       all_but_GSM1150147 124
+9                                                       all_but_GSM1150187 124
+10                                                      all_but_GSM1150199 124
+11                                                      all_but_GSM1150220 124
+12                                                      all_but_GSM1150226 124
+13                                                      all_but_GSM1150251 124
+14                                                      all_but_GSM1150465 124
+15                                    drop_top2_only GSM1150187;GSM1150251 123
+16 drop_other5_only GSM1150147;GSM1150199;GSM1150220;GSM1150226;GSM1150465 120
+   FDR05
+1      1
+2     23
+3      1
+4      1
+5      1
+6     12
+7      1
+8    369
+9      9
+10   329
+11   418
+12   388
+13    58
+14   348
+15     2
+16   342
+                     set     adjustment disc_beta  disc_p rep_beta rep_p
+AT1.GSVA_comp4       AT1     GSVA_comp4  0.081372 0.12057   0.1125 0.126
+AT1.dtangle_nonalv   AT1 dtangle_nonalv  0.059896 0.20141   0.0807 0.217
+AT1.none             AT1           none  0.164617 0.00756   0.1221 0.183
+AT2.GSVA_comp4       AT2     GSVA_comp4  0.059655 0.25884   0.0380 0.655
+AT2.dtangle_nonalv   AT2 dtangle_nonalv  0.000396 0.99276   0.0255 0.682
+AT2.none             AT2           none  0.022534 0.72358   0.0267 0.781
+aCap.GSVA_comp4     aCap     GSVA_comp4  0.037232 0.48422   0.1019 0.160
+aCap.dtangle_nonalv aCap dtangle_nonalv  0.022153 0.67267   0.0901 0.190
+aCap.none           aCap           none  0.096558 0.09608   0.1217 0.180
+gCap.GSVA_comp4     gCap     GSVA_comp4  0.065754 0.24426   0.0560 0.517
+gCap.dtangle_nonalv gCap dtangle_nonalv  0.056323 0.32594   0.0412 0.585
+gCap.none           gCap           none  0.141184 0.02116   0.0853 0.357
+                    meta_beta  meta_lo meta_hi meta_p
+AT1.GSVA_comp4        0.09202  0.00932  0.1747 0.0292
+AT1.dtangle_nonalv    0.06704 -0.00700  0.1411 0.0759
+AT1.none              0.15148  0.05289  0.2501 0.0026
+AT2.GSVA_comp4        0.05361 -0.03386  0.1411 0.2297
+AT2.dtangle_nonalv    0.00872 -0.06112  0.0786 0.8067
+AT2.none              0.02382 -0.07991  0.1276 0.6526
+aCap.GSVA_comp4       0.06020 -0.02327  0.1437 0.1575
+aCap.dtangle_nonalv   0.04749 -0.03368  0.1287 0.2515
+aCap.none             0.10390  0.00904  0.1988 0.0318
+gCap.GSVA_comp4       0.06282 -0.02928  0.1549 0.1812
+gCap.dtangle_nonalv   0.05079 -0.03823  0.1398 0.2634
+gCap.none             0.12430  0.02544  0.2232 0.0137
+                     group disc_beta rep_beta  rep_p meta_beta   meta_p
+Estimate            AT1_dt   0.29670  0.29742 0.1016   0.29692 0.002549
+Estimate1           AT2_dt   0.19996  0.22467 0.5082   0.20475 0.168038
+Estimate2          CapA_dt   0.17696  0.15687 0.0918   0.17098 0.000601
+Estimate3          CapB_dt   0.34219  0.05407 0.8573   0.26169 0.097982
+Estimate4      VE_other_dt  -0.01076 -0.22036 0.1125  -0.05899 0.367596
+Estimate5     Lymphatic_dt  -0.00746 -0.02050 0.3935  -0.01135 0.383223
+Estimate6    Fibroblast_dt  -0.13850  0.01130 0.9795  -0.10811 0.583572
+Estimate7  SMC_Pericyte_dt   0.02181 -0.07488 0.7603  -0.00305 0.980348
+Estimate8   Mesothelial_dt   0.00698  0.06852 0.1290   0.02678 0.287797
+Estimate9    Airway_epi_dt  -0.12910  0.09006 0.7849  -0.05822 0.755176
+Estimate10     Ciliated_dt   0.00179 -0.05407 0.6539  -0.01000 0.855962
+Estimate11     Monocyte_dt   0.05017  0.07052 0.8316   0.05414 0.710119
+Estimate12           DC_dt  -0.08417 -0.07963 0.6557  -0.08292 0.374218
+Estimate13         Mast_dt   0.00542 -0.03178 0.5294  -0.00581 0.833242
+Estimate14         T_NK_dt   0.06936  0.01317 0.8783   0.05223 0.268931
+Estimate15     B_Plasma_dt  -0.03797 -0.00736 0.8457  -0.03184 0.058699
+Estimate16   Macrophage_dt  -0.76339 -0.49802 0.3713  -0.67557 0.033440
+Estimate17          AlvCap   1.01581  0.73303 0.2728   0.95822 0.001325
+           mean_pct rel_change_per10_pct BH_17groups
+Estimate      6.871               4.3210      0.0217
+Estimate1    12.239               1.6730      0.4761
+Estimate2     2.883               5.9312      0.0102
+Estimate3     7.866               3.3268      0.3331
+Estimate4     3.699              -1.5950      0.5923
+Estimate5     1.092              -1.0394      0.5923
+Estimate6    12.372              -0.8738      0.8267
+Estimate7     7.010              -0.0435      0.9803
+Estimate8     1.043               2.5671      0.5923
+Estimate9     2.995              -1.9439      0.9095
+Estimate10    0.873              -1.1445      0.9095
+Estimate11    6.776               0.7990      0.9095
+Estimate12    5.933              -1.3975      0.5923
+Estimate13    3.328              -0.1745      0.9095
+Estimate14    2.933               1.7809      0.5923
+Estimate15    1.061              -3.0004      0.2495
+Estimate16   21.024              -3.2134      0.1895
+Estimate17   29.859               3.2091          NA
+AlvCap mean % (QC 177): 29.86  SD: 6.08  DLCO SD: 23.38 

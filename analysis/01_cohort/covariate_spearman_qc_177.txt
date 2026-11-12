@@ -1,0 +1,14 @@
+## GPL14550
+           DLCO  FEV1  Emphysema   Age
+DLCO       1.00  0.70      -0.70  0.13
+FEV1       0.70  1.00      -0.64  0.36
+Emphysema -0.70 -0.64       1.00 -0.23
+Age        0.13  0.36      -0.23  1.00
+
+## GPL6480
+           DLCO  FEV1  Emphysema   Age
+DLCO       1.00  0.77      -0.74  0.36
+FEV1       0.77  1.00      -0.68  0.38
+Emphysema -0.74 -0.68       1.00 -0.31
+Age        0.36  0.38      -0.31  1.00
+

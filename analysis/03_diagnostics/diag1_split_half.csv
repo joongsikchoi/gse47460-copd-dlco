@@ -1,0 +1,4 @@
+"comparison","conc_top500","tcor_top500","tcor_all","q05","q95","median_nFDR05_train_half","frac_splits_conc_below_crossplatform"
+"Cross-platform (GPL14550 -> GPL6480), adjusted",0.458,-0.0593677851545828,-0.0802149327694684,NA,NA,NA,NA
+"Split-half within GPL14550 (64 -> 61), adjusted, median of 200",0.844,0.698337430774345,0.378363037535066,"0.68/0.425/0.19","0.936/0.833/0.538",0,0.005
+"Split-half within GPL14550, unadjusted for FEV1/emph, median of 100",0.967,0.893903285563314,0.6187456484633,NA,NA,NA,NA

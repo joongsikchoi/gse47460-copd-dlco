@@ -1,0 +1,3 @@
+"model","t_cor_all","t_cor_top500","concordance_top500"
+"adjusted (main)",-0.0802149327694684,-0.0593677851545828,0.458
+"unadjusted for FEV1/emphysema",0.626341386000681,0.875496994040585,0.976

@@ -1,0 +1,10 @@
+Step,Total,GPL14550,GPL6480
+All GSE47460 samples,582,429,153
+COPD,220,145,75
+  - Missing DLCO (overlapping),23,14,9
+  - Missing FEV1 (pre-BD) (overlapping),2,2,0
+  - Missing emphysema (overlapping),9,4,5
+  - Missing smoking (overlapping),3,0,3
+  - Emphysema non-numeric (PTX flag) (overlapping),2,1,1
+Main analysis cohort,177,118,59
+Sensitivity cohort (+PTX-flagged),188,126,62

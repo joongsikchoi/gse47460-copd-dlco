@@ -1,0 +1,20 @@
+# Primary data (public; download from GEO)
+prepared/
+raw/
+raw.zip
+expansion/
+
+# Manuscript and submission files
+manuscript/
+*.docx
+*.doc
+
+# Scratch
+_tmp_*
+.Rhistory
+.RData
+.Rproj.user/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db

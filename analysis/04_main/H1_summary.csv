@@ -1,0 +1,5 @@
+"cohort","n_disc","n_rep","disc_FDR05","disc_FDR10","disc_FDR25","disc_pi0","rep_FDR05","rep_pi0"
+"primary_QC",118,59,1,1,40,0.865,0,1
+"noQC_186",125,61,375,936,2433,0.721,0,0.993
+"QC_GOLD1to4",115,55,1,1,43,0.857,0,1
+"QC_sexconcordant",115,58,1,4,41,0.871,0,1
