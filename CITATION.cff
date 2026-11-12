@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: If you use this software, please cite it using these metadata.
+type: software
+title: >-
+  Analysis code for: Alveolar-capillary cell composition and diffusing capacity
+  unexplained by airflow limitation and emphysema in COPD lung tissue
+abstract: >-
+  Analysis code and derived results for a study of diffusing capacity (DLCO) that is
+  not explained by airflow limitation and CT emphysema in COPD lung tissue, using the
+  public microarray dataset GSE47460 and the single-cell reference GSE136831.
+authors:
+  - family-names: Choi
+    given-names: Joong Sik
+    affiliation: Department of Computer Engineering, Gachon University, Seongnam, Republic of Korea
+  - family-names: Kim
+    given-names: Kangjin
+    affiliation: Department of Applied Statistics, Gachon University, Seongnam, Republic of Korea
+repository-code: https://github.com/joongsikchoi/gse47460-copd-dlco
+license: MIT
+keywords:
+  - COPD
+  - diffusing capacity
+  - DLCO
+  - gene expression
+  - cell-type deconvolution
+  - alveolar capillary
+  - lung tissue
+  - microarray
+  - GSE47460

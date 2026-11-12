@@ -1,0 +1,26 @@
+{
+  "upload_type": "software",
+  "title": "Analysis code for: Alveolar-capillary cell composition and diffusing capacity unexplained by airflow limitation and emphysema in COPD lung tissue",
+  "description": "<p>Analysis code and derived results for a study of diffusing capacity (DLCO) that is not explained by airflow limitation and CT emphysema in COPD lung tissue, using the public microarray dataset GSE47460 (Lung Genomics Research Consortium / Lung Tissue Research Consortium) and the single-cell reference GSE136831.</p><p>Surgical lung tissue from 177 COPD patients was analysed separately on the dataset's two Agilent microarray platforms (GPL14550, n = 118; GPL6480, n = 59) and combined by inverse-variance meta-analysis, with adjustment for FEV1, CT emphysema, age, sex and smoking. No gene-level association replicated across platforms, whereas the estimated alveolar-capillary cell fraction was higher in patients with higher DLCO.</p><p>The primary expression data are not redistributed here; they are publicly available in NCBI GEO.</p>",
+  "creators": [
+    { "name": "Choi, Joong Sik", "affiliation": "Department of Computer Engineering, Gachon University, Seongnam, Republic of Korea" },
+    { "name": "Kim, Kangjin", "affiliation": "Department of Applied Statistics, Gachon University, Seongnam, Republic of Korea" }
+  ],
+  "license": "mit",
+  "access_right": "open",
+  "keywords": [
+    "COPD",
+    "diffusing capacity",
+    "DLCO",
+    "gene expression",
+    "cell-type deconvolution",
+    "alveolar capillary",
+    "lung tissue",
+    "microarray",
+    "GSE47460"
+  ],
+  "related_identifiers": [
+    { "identifier": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE47460", "relation": "isDerivedFrom", "resource_type": "dataset" },
+    { "identifier": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE136831", "relation": "isDerivedFrom", "resource_type": "dataset" }
+  ]
+}
