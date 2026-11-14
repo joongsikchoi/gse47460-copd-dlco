@@ -3,6 +3,7 @@ analysis,n,disc,rep,meta,p,Q_p
 "Without AT2 (AT1+aCap+gCap), %",118/59,0.816,0.508,"0.735 [0.214, 1.255]",0.0057,0.61
 "GOLD 0 excluded, %",115/55,1.025,0.622,"0.953 [0.347, 1.559]",0.002,0.62
 "Adjusted for upper-lobe sample, %",118/59,1.019,0.717,"0.960 [0.371, 1.550]",0.0014,0.69
+"Post-bronchodilator FEV1 instead of pre-bronchodilator, %",99/52,1.033,1.107,"1.050 [0.404, 1.696]",0.0015,0.93
 Logit of the fraction,118/59,0.049,0.032,"0.045 [0.016, 0.075]",0.0024,0.66
 Log-ratio to immune cells,118/59,0.053,0.035,"0.048 [0.016, 0.080]",0.0032,0.64
 Log-ratio to stromal and vascular cells,118/59,0.036,0.036,"0.036 [-0.000, 0.073]",0.05,0.99
