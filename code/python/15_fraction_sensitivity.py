@@ -1,6 +1,7 @@
 """Sensitivity analyses of the alveolar-capillary fraction (added for submission to Respiratory Medicine).
 Usage: python 15_fraction_sensitivity.py <analysis_dir> <output_dir>
 Inputs: <analysis_dir>/01_cohort/cohort_qc_177.tsv, <analysis_dir>/10_deconvolution/deconv_proportions_186.csv
+        <output_dir>/gse47460_copd_fev1_pre_post.tsv (post-bronchodilator FEV1 from GEO sample characteristics)
 Output: <output_dir>/fraction_sensitivity.csv (Supplementary Table S16)
 Model per platform: y ~ DLCO/10 + FEV1 + sqrt(emphysema) + age + male + current smoking; inverse-variance fixed-effect meta.
 """
@@ -37,15 +38,22 @@ def meta(label, y, data=df, extra=""):
                      disc=f"{b[0]:.3f}", rep=f"{b[1]:.3f}", meta=f"{mb:.3f} [{mb-1.96*ms:.3f}, {mb+1.96*ms:.3f}]",
                      p=f"{p:.2g}", Q_p=f"{Qp:.2f}"))
     return mb, s
-mb, s = meta("Main: alveolar-capillary fraction (AT1+AT2+aCap+gCap), %", "alv_pct")
+mb_main, s = meta("Main: alveolar-capillary fraction (AT1+AT2+aCap+gCap), %", "alv_pct")
 meta("Without AT2 (AT1+aCap+gCap), %", "alv_noAT2_pct")
 meta("GOLD 0 excluded, %", "alv_pct", data=df[~gold0])
 meta("Adjusted for upper-lobe sample, %", "alv_pct", extra="+upper")
+fv = pd.read_csv(f"{OUT}/gse47460_copd_fev1_pre_post.tsv", sep="\t", comment="#")
+dfp = df.merge(fv, on="sample_id", how="left")
+assert (dfp.fev1_pre_bd == dfp.FEV1).all()
+dfp = dfp[dfp.fev1_post_bd.notna()].copy(); dfp["FEV1"] = dfp.fev1_post_bd
+meta("Post-bronchodilator FEV1 instead of pre-bronchodilator, %", "alv_pct", data=dfp)
 meta("Logit of the fraction", "logit_alv")
 meta("Log-ratio to immune cells", "lr_imm")
 meta("Log-ratio to stromal and vascular cells", "lr_str")
 meta("Log-ratio to airway epithelial cells", "lr_air")
 out = pd.DataFrame(rows); print(out.to_string(index=False))
 m = smf.ols(f"alv_pct~{F}", df[df.platform == "GPL6480"]).fit(); lo, hi = m.conf_int().loc["D10"]
+sd_eff = 0.1 * mb_main * df.DLCO.std() / df.alv_pct.std()
 print(f"\nReplication-platform estimate {m.params.D10:.3f}, 95% CI {lo:.2f} to {hi:.2f} (discovery estimate inside: {lo < 1.016 < hi})")
+print(f"Standardized effect: {sd_eff:.2f} SD of the fraction per SD of DLCO")
 out.to_csv(f"{OUT}/fraction_sensitivity.csv", index=False)
