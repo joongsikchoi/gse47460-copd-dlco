@@ -55,6 +55,7 @@ analysis/      one directory per analysis step, with the result files it produce
   12_figures_english/  English-labelled versions of the figures
   13_reviewer/ post hoc diagnostics of the outlier rule, robust regression
   14_celltype_expression/  cell number versus expression per cell
+  15_fraction_sensitivity/  sensitivity analyses of the alveolar-capillary fraction (Supplementary Table S16)
   genesets/    prespecified MSigDB C8 gene sets (Travaglini et al.)
 figures/       final manuscript figures (vector PDF)
 ```
@@ -65,11 +66,11 @@ figures/       final manuscript figures (vector PDF)
    from GEO, and place the normalised expression tables and annotation under a `prepared/` directory.
 2. Install the dependencies:
    - **R** (≥ 4.3): `limma`, `GSVA`, `sva`, `MASS`, `org.Hs.eg.db`, `GO.db`
-   - **Python** (≥ 3.10): `numpy`, `pandas`, `scipy`, `matplotlib`
+   - **Python** (≥ 3.10): `numpy`, `pandas`, `scipy`, `matplotlib`, `statsmodels`
 3. Run the steps in order. `code/run_all.sh` runs the main pipeline (cohort table, first-pass gene
    analysis, replication diagnostics, main H1-H5, raw-file QC, Table 1 and the manuscript figures)
    and shows the arguments each script takes. The later steps, under `analysis/08_figures` through
-   `analysis/14_celltype_expression`, are run individually and follow the same convention: inputs
+   `analysis/15_fraction_sensitivity`, are run individually and follow the same convention: inputs
    first, output directory last. Every script writes its outputs to that directory, which is what
    the `analysis/` subdirectories here contain.
 
